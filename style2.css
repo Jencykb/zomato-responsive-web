@@ -1,0 +1,48 @@
+.header{
+    min-height: 80px;
+    width: auto;
+
+}
+ul li {
+    float:left;
+    margin-top: 25px;
+    padding: 11px;
+    display: flex;
+    color: rgb(28, 28, 28);
+}
+ul a li :hover{
+    color: aqua;
+    
+}
+.msg{
+    min-height: 400px;
+    width: auto;
+}
+h4{
+    float: left;
+    padding: 20px;
+    margin-left: 50px
+}
+.bg img{
+
+
+object-fit: cover;
+transform: none;
+opacity: 1;
+will-change: transform, opacity;
+border-radius: inherit;
+filter: unset;
+transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+.h{
+    padding: 50px;
+    margin: 100px;
+    text-decoration: none;
+}
+.txt{
+    min-height: 650px;
+}
+.card{
+    margin: 80px;
+    border: 1px solid black;
+}
